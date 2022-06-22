@@ -1,8 +1,12 @@
+import React from 'react';
 import {Item} from './elements'
+
 function App() {
   return (
-    <div className="App">
-      <Item/>
+    <div>
+      <div className="App">
+        <Item />
+      </div>
     </div>
   );
 }
