@@ -1,9 +1,9 @@
 import React from 'react';
-import imageeth from "./images/image-equilibrium.jpg";
-import imageavatar from "./images/image-avatar.png";
-import "./css/index.css"
+import imageeth from "../images/image-equilibrium.jpg";
+import imageavatar from "../images/image-avatar.png";
 
-class Item extends React.Component {
+
+class Item extends React.Component{
     render(){
         return (
             <div className="itemContainer">
@@ -17,6 +17,7 @@ class Item extends React.Component {
             <hr></hr>
             <div><p><img alt="coucou" className="imground" src={equilibrum.imgseller}></img><span>Creation of</span>{equilibrum.seller}</p></div>
             </div>
+           
         )
     }
 }

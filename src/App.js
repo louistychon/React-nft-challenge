@@ -1,5 +1,5 @@
 import React from 'react';
-import {Item} from './elements'
+import {Item} from './components/elements'
 
 function App() {
   return (
